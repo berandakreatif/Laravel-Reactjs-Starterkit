@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png" style="max-width:150px;"></p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"><img src="https://appendto.com/wp-content/uploads/2016/05/React-1.png"></p>
 
 ## Laravel 5.8 and React 16.2.0 boilerplate
 
