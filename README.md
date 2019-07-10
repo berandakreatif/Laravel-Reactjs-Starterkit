@@ -1,23 +1,32 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"> + <img src="https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png"></p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"><img src="https://www.import.io/wp-content/uploads/2017/10/React-logo-1.png" style="max-width:150px;"></p>
 
-## Laravel 5.8 and React 16.8 boilerplate
+## Laravel 5.8 and React 16.2.0 boilerplate
 
 Please follow the guide.
 
-1. `git clone`
+1. `git clone https://github.com/berandakreatif/Laravel-Reactjs-Starterkit.git`
 2. `update the .env file along with database connection`
 3. `composer install && composer update`
 4. `php artisan migrate`
 5. `php artisan db:seed`
 6. `npm install`
+6. `php artisan serve`
 
-## Install Passport
+## Running Application
+1. open terminal and run command 
 
-Open a terminal window and install the passport using following command
+---
+php artisan serve
+---
 
- ```
- php artisan passport:install
- ```
+2. Open browser and run with this url
+
+---
+http://127.0.0.1:8000
+---
+
+3. Login with username `user@gmail.com` and password `123456789`
+
 ## Update the Passport keys in .env file 
 Copy the keys for personal and password grants in `.env` file
 
@@ -60,23 +69,5 @@ or if you would like to compile assets on runtime then copy paste following comm
 `npm run watch` or `npm run watch-poll`
 
 
-for complete list of instruction follow the link below
-[Laravel Mix](https://laravel.com/docs/5.4/mix#running-mix)
-
-
-TODO:
-
-- [x] Add Redux
-- [x] Add Passport for authentication
-- [x] User Login
-- [x] User Register
-- [x] Users Crud
-- [x] Articles Crud
-- [x] Form validation Client and Server
-- [ ] Reset Password
-- [x] Tests
-- [x] Upgrade to Laravel 5.6
-- [x] Upgrade to React 16
-
-
-
+for complete sample todo app follow the link below
+    [Todo App Laravel & React Js](https://github.com/berandakreatif/Laravel-Reactjs-CRUD-Todo-App)
