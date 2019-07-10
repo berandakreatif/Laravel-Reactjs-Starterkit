@@ -15,17 +15,16 @@ Please follow the guide.
 ## Running Application
 1. open terminal and run command 
 
----
-php artisan serve
+`php artisan serve`
 
 2. Open browser and run with this url
 
-```
-http://127.0.0.1:8000
+`http://127.0.0.1:8000`
 
 3. Login with username `user@gmail.com` and password `123456789`
 
 **OR**
+
 or if you would like to compile assets on runtime then copy paste following command in terminal 
 
 `npm run watch` or `npm run watch-poll`
